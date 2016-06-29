@@ -1,0 +1,11 @@
+<ion-view>
+  <ion-nav-title>{{user.name}}</ion-nav-title>
+  <ion-content>
+    <ion-list >
+      <ion-item ng-repeat="project in user.projects" >
+        <p>{{project.title}}</p>
+        <p>{{project.year}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

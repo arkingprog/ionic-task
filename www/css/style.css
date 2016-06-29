@@ -1,1 +1,3 @@
-/* Empty. Add your own CSS if you like */
+.user-bio{
+  white-space:pre-wrap !important;
+}
