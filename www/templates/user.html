@@ -1,6 +1,7 @@
 <ion-view>
   <ion-nav-title>{{user.name}}</ion-nav-title>
   <ion-content>
+    <h2 ng-if="user.projects.length==0">List empty</h2>
     <ion-list >
       <ion-item ng-repeat="project in user.projects" >
         <p>{{project.title}}</p>

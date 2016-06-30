@@ -1,5 +1,6 @@
 <ion-view view-title="Users">
   <ion-content>
+    <h2 ng-if="!users">List empty</h2>
     <ion-list>
       <ion-item ng-repeat="user in users" href="#/app/user/{{user.id}}" class="item-avatar">
         <img src="{{user.image}}">
